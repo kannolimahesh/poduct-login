@@ -1,0 +1,78 @@
+.login-container{  
+    height: 100%;   
+    // background-color: green;
+    display: flex;
+    position: absolute;    
+    min-height: 200px;
+    max-height: 300px;
+    min-width: 500px;
+    max-width: 850px;
+    justify-content: center;
+    margin-top: 12%;
+    margin-left: 22%;
+  
+    
+    .login-card{
+        width: 100%;
+        display: flex;
+        flex-direction: row;              
+        border-radius: 8px;
+        
+        .block{
+            display: flex;
+            flex-direction: column;            
+            padding: 8px;
+            width: 50%;
+            border-radius: 8px;
+            
+            div{
+                box-sizing: border-box;                
+                padding: 8px 28px 8px 28px;
+                .first-title{ font-size: 42px; color: #374253;}
+                .sub-title{ color: gray;}
+                input{ padding: 8px; width: 90%;}
+                &.btn-wrapper{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .btn{background-color: #5046e5; 
+                        border-radius: 8px; 
+                        color: #ffffff; 
+                        width: 25%; 
+                        font-size: 16px;
+                        border: 1px solid #5046e5;
+                    }
+                }                
+            }
+
+            &:nth-child(1){
+                background-color: #ffffff;                 
+            }
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: #5046e5;                
+                .second-title{ font-size: 32px; color: #ffffff;}
+                text-align: center;
+                color: #ffffff;
+                .btn{
+                    background-color: #736bea; 
+                    color: #ffffff; 
+                    width: 30%; 
+                    padding: 8px; 
+                    font-size: 16px; 
+                    border-radius: 4px;
+                    border: 1px solid #736bea;
+                }
+            }
+
+            
+            
+
+        }
+
+    }
+}
